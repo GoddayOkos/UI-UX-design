@@ -1,5 +1,4 @@
-# week-3-GoddayOkos
-week-3-GoddayOkos created by GitHub Classroom
+# UI-UX-design
 
 ## Problem Description
 
