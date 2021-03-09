@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UI_UX_DESIGN</string>
+    <string name="neymar">Neymar Junior</string>
+    <string name="lionel_messi">Lionel Messi</string>
+    <string name="cristiano_ronaldo">Cristiano Ronaldo</string>
+    <string name="lewandoski">R. Lewandoski</string>
+    <string name="dybala">Paulo Dybala</string>
+    <string name="floatingButton">Add an opponent</string>
+    <string name="tune">tune</string>
+    <string name="choose_opponent">Choose Opponent</string>
+    <string name="back_button">back button</string>
+    <string name="_412">412</string>
+    <string name="add_new">Add New</string>
+    <string name="opponent">Opponent</string>
+    <string name="_658">658</string>
+    <string name="_1246">1246</string>
+    <string name="_3312">3312</string>
+    <string name="_007">007</string>
+</resources>

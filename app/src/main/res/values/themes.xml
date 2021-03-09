@@ -1,0 +1,101 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- I used a NoActionBar theme to remove the ActionBar from the application-->
+
+    <style name="Theme.UI_UX_DESIGN" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dull_black</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/dull</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+<!--    All the reusable styles of the application are declared below here and referenced from the activity_main.xml    -->
+
+<!--    Theme for setting the size and color of the ratingBar   -->
+    <style name="ratingBarTheme" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlActivated">@color/gold</item>
+        <item name="android:scaleX">1.2</item>
+        <item name="android:scaleY">1.2</item>
+    </style>
+
+<!--    Style for the ratingBar -->
+    <style name="RatingBarStyle" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="theme">@style/ratingBarTheme</item>
+    </style>
+
+<!--    This is style used for the six linear layout which hold the profile of the characters    -->
+    <style name="linearLayoutStyle" parent="Theme.AppCompat">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginTop">85dp</item>
+        <item name="android:background">@drawable/layout_bg</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+<!--    This sets the profile pictures used to a circular image. It is used by the inner cardView layout    -->
+    <style name="innerCardView" parent="Theme.AppCompat">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="cardCornerRadius">40dp</item>
+    </style>
+
+<!--    This styles the middle cardView layout which acts as a padding between the inner and outer cardView layouts     -->
+    <style name="middleCardView" parent="Theme.AppCompat">
+        <item name="android:layout_width">88dp</item>
+        <item name="android:layout_height">88dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="cardCornerRadius">44dp</item>
+        <item name="cardBackgroundColor">@color/dull_black</item>
+    </style>
+
+<!--    This styles the outer cardView which acts as a circular border around the profile pictures used     -->
+    <style name="outerCardView" parent="Theme.AppCompat">
+        <item name="android:layout_width">92dp</item>
+        <item name="android:layout_height">92dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="cardCornerRadius">46dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="cardBackgroundColor">@color/red</item>
+    </style>
+
+<!--    Style for the profile pictures used-->
+    <style name="profileImage" parent="Theme.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+<!--        Style for the textView that displays the names of the characters    -->
+    <style name="nameStyle" parent="Theme.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dull</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+<!--    This styles the number (points) that appears at the end of the characters profile-->
+    <style name="pointStyle" parent="Theme.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:textColor">@color/dull</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
