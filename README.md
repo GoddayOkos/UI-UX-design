@@ -20,6 +20,4 @@ Create a dark version of the task in 1 and 2.
 
 I recreated the given UI with the light version as the default theme with the functionality for users to be able to switch between the light and dark version with a click of a button. 
 
-Screenshot_20210311-213954.png![image](https://user-images.githubusercontent.com/60139290/110863563-28d0be80-82c1-11eb-898c-6a27993e1f50.png)
-
-Screenshot_20210311-214010.png![image](https://user-images.githubusercontent.com/60139290/110863590-30906300-82c1-11eb-89c7-1483b1eaa078.png)
+<img src="https://user-images.githubusercontent.com/60139290/110863563-28d0be80-82c1-11eb-898c-6a27993e1f50.png" width=300/> <img src="https://user-images.githubusercontent.com/60139290/110863590-30906300-82c1-11eb-89c7-1483b1eaa078.png" width=300/>
